@@ -78,6 +78,8 @@ def predict(model, X, y):
 
     print("Target: {}, Predicted label: {}".format(y, predicted_index))
 
+############################## Changes made by me below, following TensorFlow tutorials to 
+# ############################ build the CNN
 if __name__ == "__main__":
     # create and train validation and test sets
     X_train, X_validation, X_test, y_train, y_validation, y_test  = prepare_datasets(0.25, 0.2)
