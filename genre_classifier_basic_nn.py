@@ -1,3 +1,15 @@
+# A note on altering code: The guidelines for this project mention 
+# altering an existing codebase. However, for this project, I did 
+# not adapt an existing codebase. I started out with a blank slate
+# idea to classify music genres with a neural network. I made heavy 
+# use of TensorFlow tutorials documentation and for ideas on the 
+# structure and parameters of MLPs and CNNs for music genre 
+# classification I have integrated code from Velardo’s YouTube 
+# tutorial series (Velardo 2020).
+
+# In-Code Citations will be inverted. I will cite where code was 
+# taken from Velardo's tutorial series.
+
 import json
 import numpy as np
 from sklearn.model_selection import train_test_split
